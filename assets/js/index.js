@@ -7,12 +7,10 @@ $(document).ready(function() {
 
 	adjust = function() {
 	  	if ($(window).scrollTop() <= 5) {
-	        $('#navbar').removeClass('opaque');
-	        $('#logo').removeClass('opaque');
+	        $('#navbar, #logo, #logo-other').removeClass('opaque');
 	        $('.nav-text').removeClass('dark-nav-text');
 	    } else {
-	        $('#navbar').addClass('opaque');  
-	        $('#logo').addClass('opaque');
+	        $('#navbar, #logo, #logo-other').addClass('opaque');
 	        $('.nav-text').addClass('dark-nav-text');
 	    }
 	}

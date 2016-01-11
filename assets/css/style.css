@@ -19,7 +19,7 @@ body {
 .header-title {
 	margin-top: 100px;
 	font-weight: 600;
-	font-size: 4.5em;
+	font-size: 4em;
 	color: white;
 }
 
@@ -69,6 +69,10 @@ body {
 }
 
 #logo.opaque {
+	color: #247BA0;
+}
+
+#logo-other.opaque {
 	color: #247BA0;
 }
 
