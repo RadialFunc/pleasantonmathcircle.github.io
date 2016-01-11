@@ -12,6 +12,8 @@
     <script src="./assets/lib/jquery/jquery.min.js"></script>
     <script src="./assets/lib/materialize/js/materialize.min.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/lib/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+
 
     <link href='https://fonts.googleapis.com/css?family=Hind:400,600,700,500,300' rel='stylesheet' type='text/css'>
 
@@ -24,8 +26,11 @@
       &nbsp;&nbsp;&nbsp;
       <a href="#" class="brand-logo" id="logo"><b>Pleasanton Math Circle</b></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html" class="nav-text">Home</a></li>
-        <li><a href="sass.html" class="nav-text">Calendar</a></li>
+        <li><a data-scroll href="#intro-header" class="nav-text">Home</a></li>
+        <li><a data-scroll href="#faq" class="nav-text">FAQ</a></li>
+        <li><a data-scroll href="#calendar" class="nav-text">Calendar</a></li>
+        <li><a data-scroll href="#people" class="nav-text">People</a></li>
+        <li><a data-scroll href="#contact" class="nav-text">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -124,9 +129,7 @@
   </div>
 </div>
 
-
-
-<div>
+<div id="people">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align"><b>People</b></p>
@@ -175,7 +178,7 @@
   </div>
 </div>
 
-<div class="deep-orange darken-2">
+<div class="deep-orange darken-2" id="contact">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align white-text"><b>Contact</b></p>
@@ -192,7 +195,6 @@
     <br/> <br/>
   </div>
 </div>
-
 
 
 </body>
