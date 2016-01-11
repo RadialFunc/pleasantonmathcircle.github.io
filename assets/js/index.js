@@ -6,7 +6,7 @@ $(document).ready(function() {
 	});
 
 	adjust = function() {
-	  	if ($(window).scrollTop() <= 0) {
+	  	if ($(window).scrollTop() <= 5) {
 	        $('#navbar').removeClass('opaque');
 	        $('#logo').removeClass('opaque');
 	        $('.nav-text').removeClass('dark-nav-text');
