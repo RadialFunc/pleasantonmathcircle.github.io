@@ -1,5 +1,5 @@
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 /* related to the headers at the top of each page */
@@ -32,14 +32,15 @@ body {
 .header-divider {
 	width: 50%;
 	background-color: white;
-	height: 2px;
+	height: 4px;
+	border: none;
 }
 
 /* related to the navbar at the top of each page */
 
 #navbar {
 	background-color: transparent !important;
-	border: none;
+	border-color: rgba(0,0,0,0);
 	box-shadow: none;
 	
 	webkit-transition: background-color  1s;
