@@ -50,7 +50,7 @@ body {
 
 #navbar.opaque {
 	background-color: white !important;
-	border-bottom: grey;
+	border-bottom: solid grey 1px;
 }
 
 #navbar-container {
@@ -104,4 +104,8 @@ body {
 
 #reg-button {
 	background-color: #F3A712;
+}
+
+.profile-picture {
+
 }
