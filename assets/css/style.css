@@ -1,0 +1,107 @@
+body {
+	font-family: 'Hind', sans-serif;
+}
+
+/* related to the headers at the top of each page */
+
+.page-header {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	position: relative;
+}
+
+#intro-header {
+	background-image: url('../img/students.jpg');
+}
+
+.header-title {
+	margin-top: 100px;
+	font-weight: 600;
+	font-size: 4.5em;
+	color: white;
+}
+
+.header-subtitle {
+	margin-bottom: 50px;
+	color: white;
+	font-size: 2.5em;
+}
+
+.header-divider {
+	width: 50%;
+	background-color: white;
+	height: 2px;
+}
+
+/* related to the navbar at the top of each page */
+
+#navbar {
+	background-color: transparent !important;
+	border: none;
+	box-shadow: none;
+	
+	webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+#navbar.opaque {
+	background-color: white !important;
+	border-bottom: grey;
+}
+
+#navbar-container {
+	position: absolute;
+	z-index: 150;
+}
+
+
+#logo, .nav-text {
+	color: white;
+	webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#logo.opaque {
+	color: #247BA0;
+}
+
+.dark-nav-text {
+	color: #50514F;
+}
+
+/* related to general formatting */
+
+.big-title {
+	font-size: 2.7em;
+	font-weight: 300;
+}
+
+/* related to the splash page */
+
+.faq-title {
+	margin: auto;
+	font-size: 1.5em;
+	color: #F3A712;
+}
+
+.gray-text {
+	color: #50514F;
+}
+
+#what-is-pmc {
+	background-color: #F25F5C;
+}
+
+#faq {
+	background-color: #29335C;
+}
+
+#reg-button {
+	background-color: #F3A712;
+}
