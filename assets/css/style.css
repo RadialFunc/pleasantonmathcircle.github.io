@@ -82,6 +82,10 @@ body {
 	font-weight: 300;
 }
 
+a {
+	color: #b3e5fc;
+}
+
 /* related to the splash page */
 
 .faq-title {
@@ -97,6 +101,7 @@ body {
 #what-is-pmc {
 	background-color: #F25F5C;
 }
+
 
 #faq {
 	background-color: #29335C;
