@@ -1,10 +1,16 @@
-$(document).ready(function() {
 
-	smoothScroll.init({
-		speed: 1000, // Integer. How fast to complete the scroll in milliseconds
-    	easing: 'easeInOutCubic', // Easing pattern to use
+
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors: ['home', 'about', 'faq', 'people', 'calendar', 'contact'],
+		menu: '#menu',
+		responsiveWidth: 600,
+		responsiveHeight: 600,
+		loopBottom: true
 	});
 
+
+	// regarding updating the navbar
 	adjust = function() {
 	  	if ($(window).scrollTop() <= 5) {
 	        $('#navbar, #logo, #logo-other').removeClass('opaque');

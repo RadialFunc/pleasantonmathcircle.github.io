@@ -12,7 +12,9 @@
     <script src="./assets/lib/jquery/jquery.min.js"></script>
     <script src="./assets/lib/materialize/js/materialize.min.js"></script>
     <script src="./assets/js/index.js"></script>
-    <script src="./assets/lib/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="./assets/lib/fullPage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="./assets/lib/fullPage.js/dist/jquery.fullpage.min.css"></script>
+
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,300,700' rel='stylesheet' type='text/css'>
 
@@ -23,20 +25,21 @@
   <nav id="navbar">
     <div class="nav-wrapper">
       &nbsp;&nbsp;&nbsp;
-      <a href="#" class="brand-logo hide-on-small-and-down" id="logo"><b>Pleasanton Math Circle</b></a>
+      <a data-scroll href="#intro-header" class="brand-logo hide-on-small-and-down" id="logo"><b>Pleasanton Math Circle</b></a>
       <a href="#" class="brand-logo hide-on-med-and-up" id="logo-other"><b>PMC</b></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a data-scroll href="#intro-header" class="nav-text">Home</a></li>
-        <li><a data-scroll href="#faq" class="nav-text">FAQ</a></li>
-        <li><a data-scroll href="#calendar" class="nav-text">Calendar</a></li>
-        <li><a data-scroll href="#people" class="nav-text">People</a></li>
-        <li><a data-scroll href="#contact" class="nav-text">Contact</a></li>
+        <li id="nav-intro-header"><a data-scroll href="#intro-header" class="nav-text">Home</a></li>
+        <li id="nav-faq"><a data-scroll href="#faq" class="nav-text">FAQ</a></li>
+        <li id="nav-calendar"><a data-scroll href="#calendar" class="nav-text">Calendar</a></li>
+        <li id="nav-people"><a data-scroll href="#people" class="nav-text">People</a></li>
+        <li id="nav-contact"><a data-scroll href="#contact" class="nav-text">Contact</a></li>
       </ul>
 
     </div>
   </nav>
 </div>
+
 
 <div id="intro-header" class="page-header">
   <div class="row">
@@ -51,12 +54,12 @@
   &nbsp;
 </div>
 
-<div id="what-is-pmc">
+<div id="section-about">
   <div class="container">
     <br/>
     <p class="big-title center-align white-text"><b>What is the Pleasanton Math Circle?</b></p>
 
-    <p class="white-text"> Pleasanton Math Circle (PMC) is a math circle designed to bring together eager students in an effort to explore different aspects of math. Lecturers include top math students from around Pleasanton, and guest lecturers include college students at top universities as well as well-known math teachers. </p>
+    <p class="white-text" id="about-text"> Pleasanton Math Circle (PMC) is a math circle designed to bring together eager students in an effort to explore different aspects of math. Lecturers include top math students from around Pleasanton, and guest lecturers include college students at top universities as well as well-known math teachers. </p>
 
     <br/>
   </div>
@@ -76,7 +79,7 @@
   </div>
 </div>
 
-<div id="faq">
+<div id="section-faq">
   <div class="container">
     <br/>
     <p class="big-title center-align white-text"><b>Frequently Asked Questions</b></p>
@@ -131,7 +134,7 @@
   </div>
 </div>
 
-<div id="people">
+<div id="section-people">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align"><b>People</b></p>
@@ -191,7 +194,7 @@
   </div>
 </div>
 
-<div class="deep-orange darken-2" id="contact">
+<div id="section-contact">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align white-text"><b>Contact</b></p>

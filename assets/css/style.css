@@ -2,6 +2,18 @@ body {
 	font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
+
+@media only screen and (max-device-width: 600px) {
+  .fp-tableCell, .section {
+  	height: auto !important;
+  }
+}
+
+@media only screen and (max-device-height: 600px) {
+  .section, .fp-tableCell  {
+  	height: auto !important;
+  }
+}
 /* related to the headers at the top of each page */
 
 .page-header {
@@ -14,6 +26,7 @@ body {
 
 #intro-header {
 	background-image: url('../img/students.jpg');
+	height: 100vh;
 }
 
 .header-title {
@@ -99,16 +112,31 @@ a {
 	color: #F3A712;
 }
 
+#about-text {
+	font-size: 1.2em;
+}
+
 .gray-text {
 	color: #50514F;
 }
 
-#what-is-pmc {
+#section-about {
 	background-color: #F25F5C;
 }
 
+#section-calendar {
+	background-color: #9b59b6;
+}
 
-#faq {
+#section-people {
+	background-color: #2ecc71;
+}
+
+#section-contact {
+	background-color: #3498db;
+}
+
+#section-faq {
 	background-color: #29335C;
 }
 
