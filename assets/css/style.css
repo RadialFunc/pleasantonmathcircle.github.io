@@ -129,8 +129,13 @@ img {
 	font-weight: 300;
 }
 
-a {
+#section-contact a {
 	color: #b3e5fc;
+}
+
+
+a {
+	color: #2196f3;
 }
 
 /* related to the splash page */
@@ -184,9 +189,6 @@ td, th {
 	padding: 20px;
 }
 
-tbody a {
-	color: #2196f3;
-}
 
 
 /* relating to the calendar page */
