@@ -1,16 +1,13 @@
 
 
 $(document).ready(function() {
-	$('#fullpage').fullpage({
-		anchors: ['home', 'about', 'faq', 'people', 'calendar', 'contact'],
-		menu: '#menu',
-		responsiveWidth: 600,
-		responsiveHeight: 600,
-		loopBottom: true
+
+
+	$('#navbar a').smoothScroll({
+		speed: 'auto',
+		autoCoefficient: 1.5
 	});
-
-
-	// regarding updating the navbar
+	
 	adjust = function() {
 	  	if ($(window).scrollTop() <= 5) {
 	        $('#navbar, #logo, #logo-other').removeClass('opaque');
@@ -21,6 +18,21 @@ $(document).ready(function() {
 	    }
 	}
 
+	// elems = ['#section-faq']
+
+	// elems.forEach(function(e) {
+	// 	$(e).scrollspy({
+	// 		min: $(e).offset().top,
+	// 	    onEnter: function(element, position) {
+	// 	        $($(element).attr('nav-link')).addClass('active');
+	// 	        console.log('enter', e)
+	// 	    },
+	// 	    onLeave: function(element, position) {
+	// 	        $($(element).attr('nav-link')).removeClass('active');
+	// 	    }
+	// 	});
+	// });
+	
 	adjust();
 
 	$(window).scroll(function(scroll) {

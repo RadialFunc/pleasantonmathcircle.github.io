@@ -43,7 +43,7 @@ img {
   	position: relative;
 }
 
-#intro-header {
+#section-intro {
 	background-image: url('../img/students.jpg');
 	height: 100vh;
 	min-height: 480px;
@@ -145,7 +145,7 @@ a {
 }
 
 #section-calendar {
-	background-color: #9b59b6;
+	background-color: #ce93d8;
 }
 
 #section-people {
@@ -164,5 +164,24 @@ a {
 }
 
 .profile-picture {
-	width: 300px;
+	height: 150px;
+}
+
+tbody tr:hover {
+	background-color: #f3e5f5 !important;
+}
+
+td, th {
+	padding: 20px;
+}
+
+tbody a {
+	color: #2196f3;
+}
+
+
+/* relating to the calendar page */
+
+#calendar-header {
+	font-size: 1.2em;
 }

@@ -6,16 +6,14 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- stylesheets -->
-    <link rel="stylesheet" href="./assets/lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/lib/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <script src="./assets/lib/jquery/jquery.min.js"></script>
-    <script src="./assets/lib/materialize/js/materialize.min.js"></script>
+    <script src="./assets/lib/materialize/js/materialize.js"></script>
+    <script src="./assets/lib/smooth-scroll/smooth-scroll.min.js"></script>
+    <script src="./assets/lib/scrollspy/scrollspy.js"></script>
     <script src="./assets/js/index.js"></script>
-    <script src="./assets/lib/fullPage.js/dist/jquery.fullpage.min.js"></script>
-    <script src="./assets/lib/fullPage.js/dist/jquery.fullpage.min.css"></script>
-
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,300,700' rel='stylesheet' type='text/css'>
 
@@ -26,22 +24,25 @@
   <nav id="navbar">
     <div class="nav-wrapper">
       &nbsp;&nbsp;&nbsp;
-      <a data-scroll href="#intro-header" class="brand-logo hide-on-small-and-down" id="logo"><b>Pleasanton Math Circle</b></a>
+      <a data-scroll href="#intro" class="brand-logo hide-on-small-and-down" id="logo"><b>Pleasanton Math Circle</b></a>
       <a href="#" class="brand-logo hide-on-med-and-up" id="logo-other"><b>PMC</b></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li id="nav-intro-header"><a data-scroll href="#intro-header" class="nav-text">Home</a></li>
-        <li id="nav-faq"><a data-scroll href="#faq" class="nav-text">FAQ</a></li>
-        <li id="nav-calendar"><a data-scroll href="cal.html" class="nav-text">Calendar</a></li>
-        <li id="nav-people"><a data-scroll href="#people" class="nav-text">People</a></li>
-        <li id="nav-contact"><a data-scroll href="#contact" class="nav-text">Contact</a></li>
+        <li id="nav-intro"><a data-scroll href="#section-intro" class="nav-text">Home</a></li>
+        <li id="nav-about"><a data-scroll href="#section-about" class="nav-text">About</a></li>
+        <li id="nav-faq"><a data-scroll href="#section-faq" class="nav-text">FAQ</a></li>
+        <li id="nav-people"><a data-scroll href="#section-people" class="nav-text">People</a></li>
+        <li id="nav-contact"><a data-scroll href="#section-contact" class="nav-text">Contact</a></li>
+        <li id="nav-calendar"><a data-scroll href="calendar.html" class="nav-text">Calendar</a></li>
       </ul>
 
     </div>
   </nav>
 </div>
+
+
   
-<div id="intro-header" class="page-header">
+<div id="section-intro" class="page-header section" nav-link="#nav-intro">
   <div class="row">
     <div class="col m2">&nbsp;</div>
     <div class="col s12 m8 center-align">
@@ -54,7 +55,7 @@
   &nbsp;
 </div>
 
-<div id="section-about">
+<div id="section-about" class="section" nav-link="#nav-about">
   <div class="container">
     <br/>
     <p class="big-title center-align white-text"><b>What is the Pleasanton Math Circle?</b></p>
@@ -79,7 +80,7 @@
   </div>
 </div>
 
-<div id="section-faq">
+<div id="section-faq" class="section" nav-link="#nav-faq">
   <div class="container">
     <br/>
     <p class="big-title center-align white-text"><b>Frequently Asked Questions</b></p>
@@ -134,7 +135,7 @@
   </div>
 </div>
 
-<div id="section-people">
+<div id="section-people" class="section" nav-link="#nav-people">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align"><b>Current Staff</b></p>
@@ -202,7 +203,7 @@
       </div>
 
       <div class="col s12 m3">
-        <image src="./assets/img/akshay.jpg" class="profile-picture z-depth-2"></image>
+        <image src="./assets/img/akshay.png" class="profile-picture z-depth-2"></image>
         <div class="profile-name"><b>Akshay Ravikumar</b><br/> BS, Computer Science </div> <br/>
       </div>
 
@@ -219,7 +220,7 @@
   </div>
 </div>
 
-<div id="section-contact">
+<div id="section-contact" class="section" nav-link="#nav-contact">
   <div class="container center-align">
     <br/>
     <p class="big-title center-align white-text"><b>Contact</b></p>
