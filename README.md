@@ -5,6 +5,18 @@ This quick guide is designed for those of you not yet familiar with web developm
 
 You'll primarily want to be looking at the file `index.html` for modifications to the main website and `calendar.html` for modifications to the PMC calendar. 
 
+## Beginning With Git
+
+Whatever the website is hosted on, it should be pointing to `pleasantonmathcircle.github.io`, so you can modify the `html` files here and it'll reflect changes on `pleasantonmathcircle.com`.
+
+To install git, simply run git using the Terminal program on Mac OS X for the first time (Windows users should look at installing the Github application and operating differently from the instructions here). Checking your current directory through Terminal requires typing in the command `ls`-- it's like browsing folders with text. Use `cd [directory_name]` like `cd Desktop` to navigate into folders, and `cd ..` to navigate out of folders.
+
+To get all the directories on your computer after installing git, simply run `git clone https://github.com/pleasantonmathcircle/pleasantonmathcircle.github.io.git` and you should get everything saved onto whatever directory that you're currently in. To work with the website, `cd` into the folder containing all the files here.
+
+Now, you can just modify the `html` files as you desire. To publish your changes, run `git commit -i [file_name_here]` without hte brackets for whatever file or folder is changed, and type in a quick message saying why you're committing this change. Then hit the escape key and type `:wq` to save the commit, and run `git push` to update changes in the Github repository.
+
+Say someone's made a change, and your directory isn't updated with the most recent files. Just run `git pull`, and you should get all the updated files.
+
 ## Main Page:
 
 In `index.html`, we have all the text information on the PMC home page. You can just modify the text to show whatever you want it to show-- this should be pretty self-explanatory.
