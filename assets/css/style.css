@@ -46,6 +46,7 @@ img {
 #intro-header {
 	background-image: url('../img/students.jpg');
 	height: 100vh;
+	min-height: 480px;
 }
 
 .header-title {
