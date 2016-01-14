@@ -2,6 +2,25 @@ body {
 	font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
 
 @media only screen and (max-device-width: 600px) {
   .fp-tableCell, .section {
