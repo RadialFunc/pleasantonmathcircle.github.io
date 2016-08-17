@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+  <head>
+    <title>Pleasanton Math Circle Archive</title>
+    <meta name="description" content="Previouschedule and handouts for Pleasanton Math Circle.">
+    <!--link rel="shortcut icon" href="assets/favicon.ico"-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./assets/lib/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,300,700' rel='stylesheet' type='text/css'>
+
+  </head>
+
+<body id="section-2016 Archive">
+
+
+<div class="navbar-fixed noselect" id="navbar-container">
+  <nav id="navbar" class="opaque">
+    <div class="nav-wrapper">
+      &nbsp;&nbsp;&nbsp;
+      <a data-scroll href="#intro-header" class="brand-logo hide-on-small-and-down opaque" id="logo"><b>Pleasanton Math Circle</b></a>
+      <a href="#" class="brand-logo hide-on-med-and-up opaque" id="logo-other"><b>PMC</b></a>
+
+      <ul id="nav-mobile" class="right">
+        <li id="nav-intro-header">
+            <a data-scroll href="index.html" class="nav-text dark-nav-text">Home</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+</div>
+
+
+  <div class="section">
+    <div class="container center-align">
+      <br/> <br/><br/><br/>
+      <div class="big-title center-align white-text"><b>Calendar</b></div>
+      <br/>
+
+       <table class="responsive-table highlight bordered" style="background-color: white;">
+        <thead>
+          <tr id="calendar-header">
+              <th>Date</th>
+              <th>Elementary School</th>
+              <th>Middle School</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>October 1</td>
+            <td>Exploding Dots 1<br> <a href="./assets/mat/Exploding_Dots.pdf"> Handout</a></td>
+            <td>Orientation + Induction<br><a href="./assets/mat/Induction.pdf"> Handout</a> <br> <a href="./assets/mat/Induction%20Solutions.pdf"> Solutions</a></td>
+          </tr>
+          <tr>
+            <td>October 15</td>
+            <td>Exploding Dots 2<br><a href="./assets/mat/Exploding%20Dots%202.pdf">Handout</a></td>
+            <td>Pigeonhole Principle<br><a>Handout</a><br><a href="./assets/mat/Pigeonhole%20PMC%20Solutions.pdf">Solutions<a></td>
+          </tr>
+          <tr>
+            <td>October 29</td>
+            <td>Exploding Dots 3<br><a href="./assets/mat/Exploding%20Dots%203.pdf">Handout</a></td>
+            <td>Double Counting<br><a>Handout</a><br><a href="./assets/mat/Double%20Counting.pdf">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>November 5</td>
+            <td>Abelian Sandpiles<br><a href="./assets/mat/Abelian_Sandpile.pdf">Handout</a></td>
+            <td>Set Theory 1<br><a href="./assets/mat/Set%20Theory.pdf">Handout</a><br><a href="./assets/mat/Set_Theory_Part_1_Solutions-2.pdf">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>November 19</td>
+            <td>Monty Hall<br><a href="./assets/mat/Monty%20Hall.pdf">Handout</a></td>
+            <td>Set Theory 2<br><a>Handout</a><br><a href="./assets/mat/Set%20Theory%202.pdf">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>December 3</td>
+            <td>Reuleaux Polygons<br><a href=".assets/mat/Reuleaux%20Polygons.pdf">Handout</a></td>
+            <td>Expected Value<br><a>Handout</a><br><a href="./assets/mat/Expected%20Value.pdf">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>December 17</td>
+            <td>Meeting Canceled</td>
+            <td>Happy Holidays!</td>
+          </tr>
+          <tr>
+            <td>January 7</td>
+            <td>Lecture from Vex Robotics</td>
+            <td>Eulers Theorem<br><a>Handout</a><br><a href="./assets/mat/EulersThm.pdf">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>January 28</td>
+            <td>Venn Diagrams<br><a href="./assets/mat/Venn_Diagrams.pdf">Handout</a>br><a href="./assets/mat/Venn_Diagrams_Solutions.pdf">Solutions</a></td>
+            <td>Bonding</td>
+          </tr>
+          <tr>
+            <td>February 4</td>
+            <td></td>
+            <td>Lecture by Dr. Simon Rubinstein-Salzedo</td>
+          </tr>
+          <tr>
+            <td>March 3</td>
+            <td>Logic Puzzles<br><a href="Logic_and_Reasoning_Solutions.pdf">Handout</a></td>
+            <td>Canceled</td>
+          </tr>
+          <tr>
+            <td>March 10</td>
+            <td>Fermi Questions<br><a href="./assets/mat/Fermi_Questions_10_2_14-2.pdf">Handout</a></td>
+            <td>Probability Theory<br><a href="./assets/mat/Probability_Theory">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>March 24</td>
+            <td>Finance Guest Lecture<br><a href="./assets/mat/PMCFinanceHandout.pdf">Handout</a></td>
+            <td>Mass points<br><a href="./assets/mat/Mass_Pts_Solutions">Solutions</a></td>
+          </tr>
+          <tr>
+            <td>April 14</td>
+            <td></td>
+            <td>Surjective, Injective, and Bijective</td>
+          </tr>
+          <tr>
+            <td>April 28</td>
+            <td></td>
+            <td>How to Cut a Cake (Fair Division)</td>
+          </tr>
+          <tr>
+            <td>May 26</td>
+            <td></td>
+            <td>Mathematical Paradoxes</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br/> 
+    </div>
+  </div>
+
+</div>
+</body>
+
+
+</html>
