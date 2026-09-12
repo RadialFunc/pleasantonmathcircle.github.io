@@ -1,0 +1,13 @@
+{
+  "name": "Pleasanton Math Circle",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8000",
+      "description": "Serves the static site (index.html, calendar.html, Archive.html) at http://localhost:8000"
+    }
+  ],
+  "ports": [
+    { "name": "web", "port": 8000 }
+  ]
+}
